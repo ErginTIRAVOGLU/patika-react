@@ -8,17 +8,17 @@ const otherFriends = [
   { id: 2, name: "Tayun" },
   { id: 3, name: "Gökhan" },
   { id: 4, name: "Ayşe" },
-  { id: 5, name: "Fatma" }
-
+  { id: 5, name: "Fatma" },
 ];
 function App() {
   return (
     <div>
       <h1>Hello React</h1>
       <User
-        adi="Ergin"
+        address={{ title: "Ataşehir/İstanbul", zip: 34000 }}
+        //adi="Ergin"
         yasi={41}
-        isLoggedIn={true}
+        //isLoggedIn={true}
         digerYasi={40}
         friends={["Ahmet", "Tayun", "Gökhan", "Ayşe", "Fatma"]}
         otherFriends={otherFriends}
